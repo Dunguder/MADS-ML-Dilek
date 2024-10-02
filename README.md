@@ -1,4 +1,4 @@
-Welcome to Advanced Topics of Aritificial Intelligence Winter 2024-2025
+Welcome to Advanced Topics of Artificial Intelligence Winter 2024-2025
 ==============================
 
 The material of this course has been created originally by Raoul Grouls for the MADS (Master in Advanced Data Science in HAN) and it is being adapted to be used in the course of Advanced Topics of Artificial Intelligence at [**Rhine-Waal University of Applied Sciences (HSRW)**](https://www.hsrw.eu/). 
