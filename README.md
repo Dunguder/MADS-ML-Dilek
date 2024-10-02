@@ -106,10 +106,8 @@ run in the cli:
 
 ## add your own ssh key
 1. copy your local ssh key, see [github docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-2. `cd ~/.ssh`
-3. `nano authorized_keys`
-copy paste your key on the second line (leave the first key there) and save the file, then exit
-4. check with `cat authorized_keys` that your key is added.
+2. Follow the steps of [Test SHH Key](https://gist.github.com/xirixiz/b6b0c6f4917ce17a90e00f9b60566278) and run the command to set your remote repository
+3. Add the key to the ssh-agent as described above. 
 
 ## Still watch the video.
 
