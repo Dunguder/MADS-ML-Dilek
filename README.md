@@ -1,5 +1,8 @@
-deep learning course
+Welcome to Advanced Topics of Aritificial Intelligence Winter 2024-2025
 ==============================
+
+The material of this course has been created originally by Raoul Grouls for the MADS (Master in Advanced Data Science in HAN) and it is being adapted to be used in the course of Advanced Topics of Artificial Intelligence at [**Rhine-Waal University of Applied Sciences (HSRW)**](https://www.hsrw.eu/). 
+As part of a collaboration project funded by the DAAD, we are planning a Hackathon in Deep Learning at HAN for the students of MADS (HAN) and MIE (HSRW)
 
 This course is part of a series of modules for data science.
 This course assumes you have done the introduction in Python and something similar to the Data Analyses & Visualisation course https://github.com/raoulg/MADS-DAV
