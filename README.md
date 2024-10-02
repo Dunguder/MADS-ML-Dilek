@@ -53,12 +53,43 @@ I have separated the management of datasets and the trainingloop code. You will 
 Both of these will be used a lot in the notebooks; by separating them it is easier for students to use the code in your own repositories.
 In addition to that, you can consider the packages as "extra material"; the way the pacakges are set up is something you can study if you are already more experienced in programming.
 
-# Installation
+# Installation for Linux [Recommended]
 
 ## install python with rye
 1. watch the [introduction video about rye](https://rye.astral.sh/guide/)
 2. You skipped the video, right? Now go back to 1. and actually watch it. I'll wait.
-3. install [rye](https://rye.astral.sh/) with `curl -sSf https://rye.astral.sh/get | bash`
+3. Open your Terminal
+4. install [rye](https://rye.astral.sh/) with `curl -sSf https://rye.astral.sh/get | bash`
+
+run through the installer like this:
+- platform linux: yes
+- preferred package installer: uv
+- Run a Python installed and managed by Rye
+- which version of python should be used as default: 3.10
+- should the installer add Rye to PATH via .profile? : y
+- run in the cli: `source "$HOME/.rye/env"`
+
+# Installation for Mac
+1. watch the [introduction video about rye](https://rye.astral.sh/guide/)
+2. You skipped the video, right? Now go back to 1. and actually watch it. I'll wait.
+3. Open your Terminal
+4. install [rye](https://rye.astral.sh/) with `curl -sSf https://rye.astral.sh/get | bash`
+
+run through the installer like this:
+- platform macos: yes
+- Run the old default Python (provided by your OS, pyenv, etc.)
+- should the installer add Rye to PATH via .profile? : y
+
+5. run in the terminal: `source "$HOME/.rye/env"`
+6. install python 3.10 as follow: `rye fetch 3.10`
+
+
+# Installation for Windows
+
+1. watch the [introduction video about rye](https://rye.astral.sh/guide/)
+2. You skipped the video, right? Now go back to 1. and actually watch it. I'll wait.
+3. Activate "Developer Mode" on Windows. Follow the instruction of **Windows Developer Mode** [See this page](https://rye.astral.sh/guide/faq/#windows-developer-mode)
+4. Download and install the latest release of [rye](https://rye.astral.sh/) 
 
 run through the installer like this:
 - platform linux: yes
