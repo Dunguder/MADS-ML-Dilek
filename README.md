@@ -52,10 +52,9 @@ I have separated the management of datasets and the trainingloop code. You will 
 
 Both of these will be used a lot in the notebooks; by separating them it is easier for students to use the code in your own repositories.
 In addition to that, you can consider the packages as "extra material"; the way the pacakges are set up is something you can study if you are already more experienced in programming.
+## Installing python with Rye
 
-# Installation for Linux [Recommended]
-
-## install python with rye
+### Installation for Linux [Recommended]
 1. watch the [introduction video about rye](https://rye.astral.sh/guide/)
 2. You skipped the video, right? Now go back to 1. and actually watch it. I'll wait.
 3. Open your Terminal
@@ -69,7 +68,7 @@ run through the installer like this:
 - should the installer add Rye to PATH via .profile? : y
 - run in the cli: `source "$HOME/.rye/env"`
 
-# Installation for Mac
+### Installation for Mac
 1. watch the [introduction video about rye](https://rye.astral.sh/guide/)
 2. You skipped the video, right? Now go back to 1. and actually watch it. I'll wait.
 3. Open your Terminal
@@ -84,7 +83,7 @@ run through the installer like this:
 6. install python 3.10 as follow: `rye fetch 3.10`
 
 
-# Installation for Windows
+### Installation for Windows
 
 1. watch the [introduction video about rye](https://rye.astral.sh/guide/)
 2. You skipped the video, right? Now go back to 1. and actually watch it. I'll wait.
