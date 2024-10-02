@@ -90,13 +90,6 @@ run through the installer like this:
 3. Activate "Developer Mode" on Windows. Follow the instruction of **Windows Developer Mode** [See this page](https://rye.astral.sh/guide/faq/#windows-developer-mode)
 4. Download and install the latest release of [rye](https://rye.astral.sh/) 
 
-run through the installer like this:
-- platform linux: yes
-- preferred package installer: uv
-- Run a Python installed and managed by Rye
-- which version of python should be used as default: 3.10
-- should the installer add Rye to PATH via .profile? : y
-- run in the cli: `source "$HOME/.rye/env"`
 
 ## add the git repo
 run in the cli:
