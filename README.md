@@ -94,7 +94,7 @@ run through the installer like this:
 ## add the git repo
 run in the cli:
 
-`git clone https://github.com/raoulg/MADS-MachineLearning-course.git`
+`git clone https://github.com/Clein2312/Advanced_AI_Applications_WS24-25_MADS_HSRW.git`
 
 ## add your username and email to git
 1. `git config --global user.name "Mona Lisa"`
