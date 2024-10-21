@@ -1,5 +1,5 @@
 # Lecture by Lecture
-notebooks/[0-9]_*/
+# notebooks/[0-9]_*/
 
 # hypertuning
 **/mlruns/*
