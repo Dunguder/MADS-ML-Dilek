@@ -42,6 +42,9 @@ cloudpickle==3.0.0
     # via mlflow
 colorama==0.4.6
     # via bayesian-optimization
+    # via click
+    # via loguru
+    # via tqdm
 configspace==0.7.1
     # via mads-deeplearning
 contourpy==1.2.1
@@ -80,10 +83,10 @@ graphql-core==3.2.3
     # via graphql-relay
 graphql-relay==3.2.0
     # via graphene
+greenlet==3.1.1
+    # via sqlalchemy
 grpcio==1.63.0
     # via tensorboard
-gunicorn==21.2.0
-    # via mlflow
 hyperopt==0.2.7
     # via mads-deeplearning
 idna==3.7
@@ -91,6 +94,8 @@ idna==3.7
 importlib-metadata==7.1.0
     # via keyring
     # via mlflow
+intel-openmp==2021.4.0
+    # via mkl
 itsdangerous==2.2.0
     # via flask
 jaraco-classes==3.4.0
@@ -132,6 +137,8 @@ matplotlib==3.8.4
     # via mads-deeplearning
     # via mlflow
     # via seaborn
+mkl==2021.4.0
+    # via torch
 mlflow==2.12.1
     # via mltrainer
 mltrainer==0.1.127
@@ -168,7 +175,6 @@ numpy==1.26.4
     # via torchvision
 packaging==24.0
     # via docker
-    # via gunicorn
     # via matplotlib
     # via mlflow
     # via plotly
@@ -214,6 +220,10 @@ python-dateutil==2.9.0.post0
 pytz==2024.1
     # via mlflow
     # via pandas
+pywin32==308
+    # via docker
+pywin32-ctypes==0.2.3
+    # via keyring
 pyyaml==6.0.1
     # via mlflow
     # via ray
@@ -260,6 +270,8 @@ sqlparse==0.5.0
     # via mlflow
 sympy==1.12
     # via torch
+tbb==2021.13.1
+    # via mkl
 tenacity==8.3.0
     # via plotly
 tensorboard==2.16.2
@@ -303,8 +315,12 @@ tzdata==2024.1
 urllib3==2.2.1
     # via docker
     # via requests
+waitress==3.0.0
+    # via mlflow
 werkzeug==3.0.3
     # via flask
     # via tensorboard
+win32-setctime==1.1.0
+    # via loguru
 zipp==3.18.1
     # via importlib-metadata
