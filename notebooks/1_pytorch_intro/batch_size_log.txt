@@ -1,0 +1,2 @@
+units1: 256, units2: 256, batch_size: 4
+units1: 256, units2: 256, batch_size: 8

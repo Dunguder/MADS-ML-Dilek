@@ -1,0 +1,7 @@
+import gin.torch.external_configurables
+
+# Parameters for NeuralNetwork:
+# ==============================================================================
+NeuralNetwork.num_classes = 10
+NeuralNetwork.units1 = 128
+NeuralNetwork.units2 = 64

@@ -83,7 +83,7 @@ class CNN(nn.Module):
 
 
 def setup_mlflow(experiment_path: str) -> None:
-    mlflow.set_tracking_uri("sqlite:///mlflow.db")
+    mlflow.set_tracking_uri("http://145.38.195.42:5004") ### will be chnaged to the server of HAN
     mlflow.set_experiment(experiment_path)
 
 
@@ -108,7 +108,7 @@ def objective(params):
     with mlflow.start_run():
         # Set MLflow tags to record metadata about the model and developer
         mlflow.set_tag("model", "convnet")
-        mlflow.set_tag("dev", "raoul")
+        mlflow.set_tag("dev", "unguderd") #unguderd
         # Log hyperparameters to MLflow
         mlflow.log_params(params)
         mlflow.log_param("batchsize", f"{batchsize}")
